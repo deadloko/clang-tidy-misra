@@ -7,8 +7,8 @@ git clone https://github.com/llvm-mirror/llvm.git --depth 1
 git clone https://github.com/llvm-mirror/clang.git --depth 1 llvm/tools/clang
 git clone https://github.com/llvm-mirror/clang-tools-extra.git --depth 1 \
  llvm/tools/clang/tools/extra
-git clone --branch=${TRAVIS_BRANCH} \
- https://github.com/rettichschnidi/clang-tidy-misra.git --depth 1 \
+git clone \
+ https://github.com/deadloko/clang-tidy-misra.git --depth 1 \
  llvm/tools/clang/tools/extra/clang-tidy/misra/
 
 #Patch clang-tidy to pick up our code

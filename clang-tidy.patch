@@ -15,6 +15,7 @@ index 77222117..fa114e78 100644
    clangTidyCERTModule
    clangTidyCppCoreGuidelinesModule
    clangTidyGoogleModule
+   clangTidyHICPPModule
 +  clangTidyMISRAModule
    clangTidyLLVMModule
    clangTidyMiscModule
