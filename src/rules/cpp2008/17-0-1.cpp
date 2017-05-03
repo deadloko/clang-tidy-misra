@@ -53,7 +53,8 @@ public:
 
   // Detect #undef
   virtual void MacroUndefined(const Token &MacroNameTok,
-                              const MacroDefinition &) override {
+                              const MacroDefinition &,
+                              const MacroDirective *Undef) override {
     detectViolation(MacroNameTok);
   }
 
